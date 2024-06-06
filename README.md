@@ -199,7 +199,7 @@ load_data 함수의 최종 결과는 다음과 csv 파일을 리스트로 변환
 
 ---
 
-## 실행
+## Chatbot 종료
 
 ```python
 while True:
