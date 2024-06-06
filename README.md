@@ -5,7 +5,7 @@
 ### 설치
 
 ```bash
-> git clone
+> git clone https://github.com/nicehyun/Chatbot-levenshtein_distance.git
 > pip install -r requirements.txt
 ```
 
