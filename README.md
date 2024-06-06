@@ -196,3 +196,18 @@ load_data 함수의 최종 결과는 다음과 csv 파일을 리스트로 변환
 
 최종적으로 `best_match_index`에 해당하는 답변을 반환합니다
 </br>
+
+---
+
+## 실행
+
+```python
+while True:
+    input_sentence = input('You: ')
+    if input_sentence.lower() == '종료':
+        break
+    response = chatbot.find_best_answer(input_sentence)
+    print('Chatbot:', response)
+```
+
+'종료'라는 입력이 나올 때까지 사용자의 입력에 따라 챗봇의 응답을 출력하는 무한 루프를 실행합니다.
